@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-logo{
+	height:70px;
+	width:70px;
+}
+.App-header{
+	display:flex;
+}
+.navbar{
+	width:100%;
+}
+
+.quiz-container{
+	max-width:1500px;
+	min-width:500px;
+	background:pink;
+	border-radius:20px;
+	margin-top:50px;
+    padding:60px 60px;
+}
+.quiz-container .active-question-no{
+	font-size:32px;
+	font-weight:500;
+	color:purple;
+}
+.quiz-container .total-question{
+	font-size:32px;
+	font-weight:500;
+	color:purple;
+}
+.quiz-container h2{
+	font-size:20px;
+	font-weight:500;
+	margin:0;
+}
+.quiz-container ul li{
+	text-decoration:none;
+	list-style:none;
+	color:black;
+	font-size:16px;
+	background:purple;
+	border:1px solid black;
+	border-radius:16px;
+	padding:11px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.quiz-container ul .selected-answer{
+	background:white;
+	border:1px solid black;
+}
+.quiz-container button{
+	background:linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+	border-radius:20px;
+	font-size:18px;
+	color:white;
+	padding:10px 42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	margin-top:15px;
+}
+.quiz-container button:disabled{
+	background:purple;	
+	color:gray;
+	cursor:not-allowed;
+}
+.flex-right{
+	display:flex;
+	justify-content:flex-end;
+}
+.result h3{
+	font-size:30px;
+	letter-spacing:2.4px;
+	text-align:center;
+}
+.result p{
+	font-size:20px;
+	font-weight:1000;
+}
+.result p span{
+	color:purple;
+	font-size:20px;
+}
+.restart button{
+	background:linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+	border-radius:20px;
+	font-size:18px;
+	color:white;
+	padding:10px 42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	margin-top:15px;
+}
+.restart button:{
+	background:purple;	
+	color:gray;
+	cursor:allowed;
+}

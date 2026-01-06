@@ -7,8 +7,8 @@ import OldTable from './pages/OldTable';
 import NewTable from './pages/NewTable';
 import Quiz from './pages/Quiz';
 import Feedback from './pages/Feedback';
-import {BrowserRouter,Route,Routes}from'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import {HashRouter,Route,Routes}from'react-router-dom';
+//import { HashRouter } from 'react-router-dom';
 
 
 function App() {

@@ -8,12 +8,12 @@ import NewTable from './pages/NewTable';
 import Quiz from './pages/Quiz';
 import Feedback from './pages/Feedback';
 import {BrowserRouter,Route,Routes}from'react-router-dom';
-
+import { HashRouter } from 'react-router-dom';
 
 
 function App() {
   return (
-  <BrowserRouter>
+  <HashRouter>
     <div className="App">
 	
       <header className="App-header">
@@ -31,7 +31,7 @@ function App() {
 		  <Route path="/Feedback" exact element={<Feedback/>}/>
 		  </Routes>
     </div>
-	</BrowserRouter>
+	</HashRouter>
   );
 }
 

@@ -7,13 +7,13 @@ import OldTable from './pages/OldTable';
 import NewTable from './pages/NewTable';
 import Quiz from './pages/Quiz';
 import Feedback from './pages/Feedback';
-import {HashRouter,Route,Routes}from'react-router-dom';
+import {BrowserRouter,Route,Routes}from'react-router-dom';
 //import { HashRouter } from 'react-router-dom';
 
 
 function App() {
   return (
-  <HashRouter>
+  <BrowserRouter>
     <div className="App">
 	
       <header className="App-header">
@@ -31,7 +31,7 @@ function App() {
 		  <Route path="/Feedback" exact element={<Feedback/>}/>
 		  </Routes>
     </div>
-	</HashRouter>
+	</BrowserRouter>
   );
 }
 

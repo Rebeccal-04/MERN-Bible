@@ -1,5 +1,5 @@
 import React from "react";
-import {useNavigate} from 'react';
+
 const History=()=>(
 <div style={{padding:'50px 10%',backgroundColor:'pink'}}>
 <div>
